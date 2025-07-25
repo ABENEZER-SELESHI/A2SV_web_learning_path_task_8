@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌐 A2SV Web Learning Path – Task 8
+This task focuses on integrating authentication into a Next.js application using NextAuth.js. The goal is to gain hands-on experience with protected routes, email verification, and OAuth via Google Sign-In.
 
-## Getting Started
+✅ Authentication has been fully integrated into the previously built application.
 
-First, run the development server:
+🚀 Features
+Google Sign-In with NextAuth.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Email and password-based registration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Email verification step after signup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Protected routes using middleware
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Redux Toolkit for global state management
 
-## Learn More
+Form validation with React Hook Form
 
-To learn more about Next.js, take a look at the following resources:
+🔐 Protected Routes
+All routes are protected except the following:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+/SignIn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+/SignUp
 
-## Deploy on Vercel
+/VerifyEmail
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🖥️ Screenshots
+✅ Landing Page
+![landing page](screenshots/Screenshot%202025-07-24%20170920.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔐 Login Page
+![login page](screenshots/Screenshot%202025-07-24%20171006.png)
+
+✍️ Signup Page
+![signup page](screenshots/Screenshot%202025-07-24%20171046.png)
+
+📧 Email Verification Page
+![verify email](screenshots/Screenshot%202025-07-24%20171329.png)
+
+🛠️ Tech Stack
+Next.js – React framework for SSR and routing
+
+NextAuth.js – Authentication for Next.js apps
+
+Redux Toolkit – State management
+
+React Hook Form – Form handling and validation
